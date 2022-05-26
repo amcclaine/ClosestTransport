@@ -8,6 +8,8 @@ Testing can be done through Postman or Swagger which is already setup for the ap
 
 The media type must be set to application/json
 
+Request endpoint: https://localhost:5000/api/robots/closest
+
 Request Body:
 {
   "loadId": 222,
@@ -27,3 +29,4 @@ Next steps/features
 If I were to continue, I would move the logic to calculate the closest robot into it's own class and also add unit tests around that logic.
 More robust exception handling and handling of edge cases would also be a next consideration.
 The addition of logging and perhaps a more robust http client implementation that can handle timeouts, retries and various failure states would be preferred.
+
