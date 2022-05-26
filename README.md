@@ -8,6 +8,8 @@ Testing can be done through Postman or Swagger which is already setup for the ap
 
 The media type must be set to application/json
 
+Request endpoint: https://localhost:5000/api/robots/closest
+
 Request Body:
 {
   "loadId": 222,
